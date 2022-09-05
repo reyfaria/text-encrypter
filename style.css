@@ -172,10 +172,6 @@ footer{
 
 @media screen and (max-width:480px){
 
-    body{
-        background-image: url("imagenes/background-mobile.png");
-    }
-
     main{
         width: 408px;
         margin-left: 0%;
