@@ -1,0 +1,162 @@
+body{
+    background-image: url("imagenes/cloud\ computing.jpg");
+}
+
+.img-logo{
+    margin: 20px 0 0 20px;
+}
+
+main{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    width: 450px;
+    height: 400px;
+    margin-top: 200px;
+    border-radius: 15px;
+    border: 2px solid #a2d2ff;
+    background: none;
+    resize: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-texto::placeholder{
+    line-height: 400px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    font-family:'Montserrat', sans-serif;
+}
+
+.advertencia{
+    display: flex;
+    color: white;
+    height: 20px;
+}
+
+.advertencia-texto{
+    margin-top: 0%;
+    font-size: 16px;
+}
+
+.exclamacion-logo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.encriptar{    
+    width: 150px;
+    background-color: #000000;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: solid 2px #37b87b;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.encriptar:hover{
+    transform: scale(1.1);
+    border: solid 2px greenyellow;
+}
+
+.desencriptar{
+    width: 150px;
+    margin-left: 40px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: solid 2px #37b87b;
+    font-family:'Montserrat', sans-serif;
+}
+
+.desencriptar:hover{
+    transform: scale(1.1);
+    border: solid 2px greenyellow;
+}
+
+.mensaje{
+    width: 450px;
+    height: 400px;
+    margin: 200px 0 0 600px;
+    border: 2px solid #a2d2ff;
+    border-radius: 15px;
+    position: relative;
+    resize: none;    
+    background: none;
+    background-image: url("imagenes/inspector.png");
+    background-repeat: no-repeat;    
+    background-size: 180px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mensaje::placeholder{
+    line-height: 400px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+    font-family:'Montserrat', sans-serif;
+}
+
+.btn-copiar{
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.copiar{
+    width: 150px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: solid 2px #37b87b;
+    font-family:'Montserrat', sans-serif;
+}
+
+.copiar:hover{
+    transform: scale(1.1);
+    border: solid 2px greenyellow;
+}
+
+footer{
+    height: 220px;
+}
+
+.linkedin-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 870px;
+}
+
+.github-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+}
+
+.copyright{
+    height: 50px;    
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

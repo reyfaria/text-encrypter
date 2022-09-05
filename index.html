@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title> 
+    
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/Vector.png" alt="Logo de alura" class="img-logo">
+    </header>
+
+    <main>
+        
+        <section>
+
+            <textarea cols="5" rows="5" class="input-texto" placeholder="Ingrese el texto que desea encriptar..." maxlength="500"></textarea>
+
+            <div class="advertencia">
+                <img src="imagenes/exclamacion.png" alt="signo de advertencia" class="exclamacion-logo">
+                <p class="advertencia-texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+                        
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">ENCRIPTAR</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">DESENCRIPTAR</button>
+            </div>
+
+        </section>
+
+        <section>
+            <textarea cols="5" rows="5" class="mensaje" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+
+            <div class="btn-copiar">
+                <button class="copiar" onclick="copiar()">COPIAR</button>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+<footer>
+    <a href="https://www.linkedin.com/in/reynaldo-faria-dev/" target="_blank"><img src="imagenes/linkedin-logo.png" class="linkedin-logo"></a>
+    <a href="https://github.com/reyfaria" target="_blank"><img src="imagenes/github-logo.png" class="github-logo"></a>
+    <p class="copyright"> © Made by Reynaldo Faria - 2022 </p>      
+</footer>
+
+</html>
