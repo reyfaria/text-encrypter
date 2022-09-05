@@ -181,9 +181,7 @@ footer{
     .section-1, .section-2{
         width: 200px;
         margin-top: 50px;
-        margin-left: 0%;
-        border: solid 2px white;
-       
+        margin-left: 0%; 
     }
 
     .advertencia{
@@ -310,10 +308,5 @@ footer{
         color: white;
         font-size: 10px;
     }
-
-    .swal-wide{
-        width: 80px;
-    }
-
 
 }
